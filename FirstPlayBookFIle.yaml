@@ -1,6 +1,6 @@
 ---
 - name: This is a first plau
-  hosts: localhost
+  hosts: all
   become: yes
   tasks:
     - name: Copy file with owner and permissions
