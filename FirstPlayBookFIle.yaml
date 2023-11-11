@@ -6,7 +6,7 @@
     - name: Copy file with owner and permissions
       ansible.builtin.file:
         path: /tmp/test{1..9}.mp3  
-        state: present
+        state: file
 
     - name: Copy file with owner and permissions
       ansible.builtin.package:
