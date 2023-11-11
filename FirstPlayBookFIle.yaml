@@ -1,0 +1,11 @@
+---
+- name: This is a first plau
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Copy file with owner and permissions
+      ansible.builtin.copy:
+        src: /tmp/test.mp3  
+        dest: /tmp
+    
+
