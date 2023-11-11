@@ -1,5 +1,5 @@
 ---
-- name: This is a first plau
+- name: This is a first playbook
   hosts: all
   become: yes
   tasks:
