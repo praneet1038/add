@@ -6,11 +6,12 @@
     - name: Copy file with owner and permissions
       ansible.builtin.file:
         path: /tmp/test{1..9}.mp3  
-        state: file
+        state: touch
 
     - name: Copy file with owner and permissions
       ansible.builtin.package:
-        name: tree  
+        name: tree 
+        become: yes 
         state: present    
     
 
