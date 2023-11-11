@@ -11,6 +11,6 @@
     - name: Copy file with owner and permissions
       ansible.builtin.package:
         name: httpd 
-        state: present    
+        state: absent    
     
 
