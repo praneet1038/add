@@ -5,7 +5,7 @@
   tasks:
     - name: Copy file with owner and permissions
       ansible.builtin.file:
-        path: /tmp/test1.mp3  
+        path: /tmp/test2.mp3  
         state: absent 
     
 
