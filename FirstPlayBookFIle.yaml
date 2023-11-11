@@ -10,8 +10,7 @@
 
     - name: Copy file with owner and permissions
       ansible.builtin.package:
-        name: nginx 
-        become: yes 
+        name: ntpdate 
         state: present    
     
 
