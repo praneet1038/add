@@ -10,7 +10,7 @@
 
     - name: Copy file with owner and permissions
       ansible.builtin.package:
-        name: tree 
+        name: nginx 
         become: yes 
         state: present    
     
