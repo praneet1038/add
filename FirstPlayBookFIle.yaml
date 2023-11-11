@@ -5,7 +5,12 @@
   tasks:
     - name: Copy file with owner and permissions
       ansible.builtin.file:
-        path: /tmp/test.mp3  
-        state: absent 
+        path: /tmp/test{1..9}.mp3  
+        state: present
+
+    - name: Copy file with owner and permissions
+      ansible.builtin.package:
+        name: tree  
+        state: present    
     
 
